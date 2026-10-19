@@ -105,3 +105,64 @@ body{background:#eee8dc;color:#29242b}
 .manuscript-chapter .letter-signoff{font-style:italic;color:#67516a}
 .manuscript-backtop{display:inline-block;margin-top:30px;font:10px var(--mono);letter-spacing:.1em;text-transform:uppercase;color:#67516a;text-decoration:none}
 @media(max-width:760px){.manuscript-shell{padding:42px 6% 70px}.manuscript-chapter p{font-size:18px}.manuscript-chapter h3{font-size:26px}.manuscript-part h2{font-size:39px}.manuscript-tools{font-size:9px}}
+
+
+/* The Lost Traveller — standalone chapter reader */
+.chapter-index-page,.chapter-reader{background:var(--void);color:var(--paper)}
+.chapter-index-hero{min-height:520px;padding-bottom:58px}
+.chapter-index-hero .traveller-deck{max-width:650px}
+.chapter-index{padding-top:70px;padding-bottom:100px}
+.chapter-index-intro{display:grid;grid-template-columns:1fr minmax(260px,420px);gap:50px;align-items:end;margin:35px 0 28px}
+.chapter-index-intro h2{margin:0;font:500 clamp(38px,6vw,76px)/.98 var(--display);letter-spacing:-.065em}
+.chapter-index-intro h2 em{color:var(--fog);font-family:var(--serif);font-weight:400}
+.chapter-index-intro p,.chapter-index-note{color:var(--muted);font-size:14px;line-height:1.9;margin:0}
+.chapter-index-note{max-width:780px;margin:8px 0 45px}
+.chapter-route-label{display:flex;justify-content:space-between;gap:18px;align-items:center;border-top:1px solid var(--line);padding:20px 0 14px;font:10px var(--mono);letter-spacing:.12em;color:var(--fog)}
+.chapter-route-label span:last-child{color:var(--dim);text-align:right}
+.chapter-card-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line);margin-bottom:46px}
+.chapter-card{display:grid;grid-template-columns:42px 1fr 20px;gap:18px;align-items:center;min-height:92px;padding:19px 22px;background:#111014;text-decoration:none;transition:background .2s,transform .2s}
+.chapter-card:hover{background:#201923}
+.chapter-card-number{font-size:10px;color:var(--fog)}
+.chapter-card-copy{display:flex;flex-direction:column;gap:5px;min-width:0}
+.chapter-card-copy strong{font:500 20px/1.25 var(--serif);color:var(--paper)}
+.chapter-card-copy small{font:9px var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--dim)}
+.chapter-card-arrow{color:var(--oxblood);justify-self:end}
+.tourist-route-label{color:#b6c3b7}
+.closing-route-label{margin-top:8px}
+.love-letter-card{border-left:2px solid var(--oxblood)}
+.chapter-topline{display:flex;justify-content:space-between;gap:18px;padding:24px 5.4%;border-bottom:1px solid var(--line);font-size:9px;color:var(--dim)}
+.chapter-topline a{text-decoration:none;color:var(--fog)}
+.chapter-heading{width:min(760px,calc(100% - 48px));margin:0 auto;padding:clamp(60px,10vw,120px) 0 45px;border-bottom:1px solid var(--line)}
+.chapter-heading .eyebrow{margin:0 0 20px}
+.chapter-heading h1{font:500 clamp(42px,7vw,82px)/1.02 var(--display);letter-spacing:-.065em;margin:0;color:var(--paper);text-wrap:balance}
+.chapter-reading-hint{font-size:12px;color:var(--dim);margin:24px 0 0;max-width:520px;line-height:1.8}
+.chapter-prose{width:min(700px,calc(100% - 48px));margin:0 auto;padding:42px 0 90px;font:400 clamp(18px,1.5vw,20px)/1.95 var(--serif);color:#e4ddcf;overflow-wrap:anywhere}
+.chapter-prose p{margin:0 0 1.55em}
+.chapter-prose p:last-child{margin-bottom:0}
+.chapter-pagination{width:min(900px,calc(100% - 48px));margin:0 auto 100px;padding-top:22px;border-top:1px solid var(--line);display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.chapter-neighbour{display:flex;flex-direction:column;gap:10px;padding:18px 20px;border:1px solid var(--line);text-decoration:none;min-width:0;transition:border-color .2s,background .2s}
+.chapter-neighbour:hover{border-color:var(--fog);background:rgba(120,135,123,.08)}
+.chapter-neighbour span{font:9px var(--mono);letter-spacing:.1em;color:var(--fog)}
+.chapter-neighbour strong{font:500 17px/1.3 var(--serif);font-weight:400;overflow-wrap:anywhere}
+.chapter-neighbour.next{text-align:right}
+@media(max-width:680px){
+ .chapter-index-hero{min-height:480px}
+ .chapter-index{padding-top:48px;padding-bottom:65px}
+ .chapter-index-intro{grid-template-columns:1fr;gap:16px;margin-top:26px}
+ .chapter-card-list{grid-template-columns:1fr;margin-bottom:32px}
+ .chapter-card{min-height:78px;padding:16px}
+ .chapter-route-label{align-items:flex-start;flex-direction:column;gap:7px}
+ .chapter-route-label span:last-child{text-align:left}
+ .chapter-topline{flex-wrap:wrap;font-size:8px;padding:18px 24px}
+ .chapter-heading{padding:58px 0 30px}
+ .chapter-prose{padding-top:32px;padding-bottom:60px;font-size:19px;line-height:1.9}
+ .chapter-pagination{grid-template-columns:1fr;margin-bottom:64px}
+ .chapter-neighbour.next{text-align:left}
+}
+@media(prefers-reduced-motion:reduce){.chapter-card,.chapter-neighbour{transition:none}}
+
+
+.legacy-reader-notice{width:min(900px,calc(100% - 48px));margin:22px auto 0;padding:14px 18px;border:1px solid var(--line);display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:9px;color:var(--fog)}
+.legacy-reader-notice a{text-decoration:none;color:var(--paper)}
+.legacy-reader-notice a:hover{text-decoration:underline}
+.legacy-reader-notice span{color:var(--dim);text-transform:none;letter-spacing:0;font:12px/1.5 var(--sans)}
