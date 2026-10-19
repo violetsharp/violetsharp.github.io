@@ -160,3 +160,9 @@ body{background:#eee8dc;color:#29242b}
  .chapter-neighbour.next{text-align:left}
 }
 @media(prefers-reduced-motion:reduce){.chapter-card,.chapter-neighbour{transition:none}}
+
+
+.legacy-reader-notice{width:min(900px,calc(100% - 48px));margin:22px auto 0;padding:14px 18px;border:1px solid var(--line);display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:9px;color:var(--fog)}
+.legacy-reader-notice a{text-decoration:none;color:var(--paper)}
+.legacy-reader-notice a:hover{text-decoration:underline}
+.legacy-reader-notice span{color:var(--dim);text-transform:none;letter-spacing:0;font:12px/1.5 var(--sans)}
