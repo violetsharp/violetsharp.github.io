@@ -1,5 +1,5 @@
 :root {
-  color-scheme: light; --void:#0A090D; --bruise:#211823; --violet:#70506F; --coal:#252525; --steel:#626262; --forest:#303B35; --fog:#78877B; --paper:#D8D0BB; --oxblood:#9D303C;
+  color-scheme: dark; --void:#0A090D; --bruise:#211823; --violet:#70506F; --coal:#252525; --steel:#626262; --forest:#303B35; --fog:#78877B; --paper:#D8D0BB; --oxblood:#9D303C;
   --text:var(--paper); --muted:#A8A19F; --dim:#858084; --line:rgba(216,208,187,.19);
   --display:"Space Grotesk",sans-serif; --serif:"Newsreader",Georgia,serif; --mono:"IBM Plex Mono",monospace; --sans:"Manrope",sans-serif;
   font-synthesis:none; text-rendering:optimizeLegibility; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;
@@ -166,3 +166,8 @@ body{background:#eee8dc;color:#29242b}
 .legacy-reader-notice a{text-decoration:none;color:var(--paper)}
 .legacy-reader-notice a:hover{text-decoration:underline}
 .legacy-reader-notice span{color:var(--dim);text-transform:none;letter-spacing:0;font:12px/1.5 var(--sans)}
+
+
+/* Fail-safe page canvas colors: keep the archive dark even if a theme variable is unavailable. */
+html { background-color: #0A090D; color-scheme: dark; }
+body { background-color: #0A090D; background: var(--void, #0A090D); color: var(--text, #D8D0BB); }
