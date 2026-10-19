@@ -208,3 +208,164 @@ body { background: var(--void, #0A090D); color: var(--paper, #D8D0BB); }
 .manuscript-chapter { border-color: var(--line); }
 .reading-pagination { background: var(--void); color: var(--paper); border-color: var(--line); }
 .reading-pagination a { color: var(--muted); }
+
+
+/* ============================================================
+   VIOLET — NIGHT ARCHIVE
+   Unified art direction: ink, bruised plum, oxidised red,
+   forest shadow, bone typography. No broad pale panels.
+   ============================================================ */
+:root {
+  color-scheme: dark;
+  --void: #09080c;
+  --bruise: #1b1420;
+  --violet: #8b648b;
+  --coal: #121116;
+  --steel: #79717d;
+  --forest: #202c26;
+  --fog: #9aa99b;
+  --paper: #e4dccb;
+  --oxblood: #a83b48;
+  --text: #e4dccb;
+  --muted: #b0a6b0;
+  --dim: #817784;
+  --line: rgba(228,220,203,.17);
+  background: var(--void);
+  color: var(--paper);
+}
+html { background: var(--void); color-scheme: dark; scroll-behavior:smooth; }
+body { background:var(--void); color:var(--paper); }
+::selection { background:var(--violet); color:#fff8ed; }
+a { color:inherit; }
+.site-header {
+  background:rgba(9,8,12,.94); color:var(--paper);
+  border-bottom:1px solid var(--line); backdrop-filter:blur(18px);
+}
+.wordmark,.footer-wordmark { color:var(--paper); }
+.wordmark span,.footer-wordmark span { color:var(--oxblood); }
+.primary-nav a,.header-index { color:var(--muted); }
+.primary-nav a:hover,.header-index:hover { color:var(--paper); }
+.hero {
+  color:var(--paper);
+  background:
+    radial-gradient(ellipse at 72% 40%,rgba(112,80,111,.24),transparent 42%),
+    linear-gradient(115deg,#100d14 0%,#211824 53%,#18211c 100%);
+}
+.hero:after {
+  background:linear-gradient(90deg,rgba(9,8,12,.84),rgba(18,13,20,.48) 38%,rgba(9,8,12,.06) 78%,rgba(9,8,12,.2));
+}
+.hero-image { opacity:.82; filter:saturate(.72) contrast(1.06); }
+.hero-image:before {
+  background:linear-gradient(90deg,rgba(9,8,12,.52),transparent 56%),
+    radial-gradient(ellipse at 70% 35%,rgba(228,220,203,.18),transparent 33%),
+    linear-gradient(0deg,rgba(9,8,12,.78),transparent 56%);
+}
+.hero h1 { color:#eee5d7; }
+.hero h1 b { color:var(--oxblood); }
+.eyebrow,.hero-meta,.hero-footer,.section-label,.mono { text-shadow:none; }
+.eyebrow { color:#c2a8c3; }
+.hero-line em { color:var(--fog); }
+.round-link { color:var(--paper); border-color:rgba(228,220,203,.25); }
+.round-link:hover { background:rgba(228,220,203,.08); border-color:var(--fog); }
+.hero-meta,.hero-footer { color:rgba(228,220,203,.68); }
+.record-status i { background:var(--oxblood); box-shadow:0 0 12px rgba(168,59,72,.45); }
+.section-wrap { background:var(--void); color:var(--paper); }
+.manifesto,.cinema,.writing,.archive,.traveller-choices {
+  background:#0d0b10; color:var(--paper);
+}
+.manifesto { background:linear-gradient(180deg,#111016,#0b0a0e); }
+.cinema { background:#101116; }
+.writing { background:linear-gradient(135deg,#17111a,#111016 62%,#111713); }
+.entity { background:linear-gradient(130deg,#1b2821,#111713 70%); color:var(--paper); }
+.archive { background:#0d0b10; color:var(--paper); }
+.manifesto .section-label,.cinema .section-label,.writing .section-label,
+.entity .section-label,.archive .section-label,.traveller-choices .section-label {
+  color:var(--fog); border-color:var(--line);
+}
+.manifesto h2,.cinema h2,.writing h2,.entity h2,.archive h2,
+.traveller-choices h2 { color:var(--paper); }
+.manifesto h2 em,.section-heading h2 em,.writing-intro h2 em,
+.archive-heading h2 em,.traveller-choices h2 em { color:#b89ab9; }
+.manifesto-copy p,.manifesto-copy .lead,.section-heading>p,.writing-intro>p,
+.entity-copy p,.film-caption,.section-footnote,.archive-links,.route-note {
+  color:var(--muted);
+}
+.manifesto-copy .lead { color:var(--paper); }
+.film-frame { background:#09080c; border-color:var(--line); }
+.film-still { filter:saturate(.7) brightness(.72); }
+.film-caption,.section-footnote { color:var(--dim); }
+.traveller-feature { border-color:var(--line); }
+.traveller-art { filter:saturate(.72) brightness(.78); }
+.traveller-info { background:linear-gradient(140deg,#211824,#111014 72%); color:var(--paper); }
+.traveller-info h3 { color:var(--paper); }
+.traveller-info h3 em { color:#c4a5c5; }
+.traveller-info>p:not(.eyebrow) { color:var(--muted); }
+.traveller-info .eyebrow { color:#c4a5c5; }
+.text-link { color:var(--paper); }
+.text-link span { color:var(--fog); }
+.writing-note { color:var(--dim); }
+.entity .section-label { color:#a8b9aa; }
+.entity h2 em { color:#a8b9aa; }
+.entity-copy p { color:#c1c9be; }
+.entity-tags span { border-color:rgba(228,220,203,.23); color:var(--paper); }
+.archive .section-label { color:var(--fog); }
+.archive-links { border-color:var(--line); }
+.archive-links a { border-color:var(--line); color:var(--paper); }
+.archive-links a:hover { background:rgba(139,100,139,.12); }
+.closing {
+  color:var(--paper);
+  background:radial-gradient(ellipse at 78% 50%,rgba(112,80,111,.22),transparent 38%),linear-gradient(120deg,#211724,#111016);
+}
+.closing-overline { color:#c5adc5; }
+.closing:before { border-color:rgba(228,220,203,.2); box-shadow:0 0 0 40px rgba(228,220,203,.025),0 0 0 80px rgba(112,80,111,.05); }
+.closing-symbol { color:var(--oxblood); }
+.site-footer { background:#09080c; color:var(--dim); border-color:var(--line); }
+.site-footer a { color:var(--muted); }
+.site-footer a:hover { color:var(--paper); }
+/* The Lost Traveller and long-form reading pages share the same night palette. */
+.traveller-page,.reading-page,.chapter-index-page,.chapter-reader { background:var(--void); color:var(--paper); }
+.traveller-hero {
+  background:radial-gradient(ellipse at 80% 25%,rgba(120,135,123,.17),transparent 32%),
+    linear-gradient(120deg,#100d14 15%,#1b211c 100%); color:var(--paper);
+}
+.traveller-hero:after { border-color:var(--line); box-shadow:0 0 0 35px rgba(228,220,203,.02),0 0 0 85px rgba(112,80,111,.035); }
+.traveller-deck { color:#d1c8d0; }
+.traveller-meta,.reading-rule { color:var(--dim); border-color:var(--line); }
+.traveller-choices { background:#0d0b10; color:var(--paper); }
+.route-violet { background:linear-gradient(150deg,#302233,#171219); color:var(--paper); border-color:#70506f; }
+.route-tourist { background:linear-gradient(150deg,#26372c,#141d17); color:var(--paper); border-color:#536b58; }
+.route-subtitle { color:#c7b5cb; }
+.route-tourist .route-subtitle { color:#bdcbbd; }
+.route-note { color:var(--muted); }
+.reading-hero { color:var(--paper); }
+.violet-reading .reading-hero { background:radial-gradient(ellipse at 80% 35%,rgba(139,100,139,.2),transparent 37%),linear-gradient(120deg,#100d14,#211824); }
+.tourist-reading .reading-hero { background:radial-gradient(ellipse at 80% 35%,rgba(120,135,123,.18),transparent 37%),linear-gradient(120deg,#101711,#202c26); }
+.violet-reading .reading-hero h1 span { color:#c4a5c5; }
+.tourist-reading .reading-hero h1 span { color:var(--fog); }
+.reading-intro,.tourist-reading .reading-intro { color:#d1c8d0; }
+.prose-container,.manuscript-shell { background:#111014; color:var(--paper); }
+.prose-container h2,.manuscript-part h2,.manuscript-chapter h3 { color:var(--paper); }
+.prose-container>p:not(.edition-note),.tourist-reading .prose-container>p:not(.edition-note),
+.manuscript-chapter p { color:#d8d0c4; }
+.prose-container .prose-aside { color:var(--muted); }
+.edition-note,.manuscript-part-label { color:#bd94bd; }
+.manuscript-tools { color:var(--muted); }
+.manuscript-tools a { color:#c5a4c6; border-color:rgba(197,164,198,.4); }
+.manuscript-part,.manuscript-chapter { border-color:var(--line); }
+.reading-pagination { background:#0d0b10; color:var(--paper); border-color:var(--line); }
+.reading-pagination a { color:var(--muted); }
+.reading-pagination a:hover { color:var(--paper); }
+.chapter-topline { background:#0d0b10; color:var(--dim); border-color:var(--line); }
+.chapter-topline a { color:var(--fog); }
+.chapter-heading { border-color:var(--line); }
+.chapter-heading h1 { color:var(--paper); }
+.chapter-prose { color:#e4dccb; }
+.chapter-neighbour { border-color:var(--line); color:var(--paper); }
+.chapter-neighbour:hover { border-color:var(--fog); background:rgba(120,135,123,.07); }
+.legacy-reader-notice { border-color:var(--line); color:var(--fog); }
+.legacy-reader-notice a { color:var(--paper); }
+@media(max-width:760px) {
+  .site-header { background:rgba(9,8,12,.97); }
+  .hero:after { background:linear-gradient(90deg,rgba(9,8,12,.78),rgba(9,8,12,.32)),linear-gradient(0deg,var(--void),transparent 60%); }
+}
+@media(prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }
