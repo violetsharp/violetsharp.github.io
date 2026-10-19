@@ -2,11 +2,12 @@
   const year = document.getElementById("year");
   if (year) year.textContent = String(new Date().getFullYear());
 
-  // Keep in-page navigation smooth only when the visitor has not requested reduced motion.
-  const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-  if (reducedMotion) document.documentElement.style.scrollBehavior = "auto";
+  // Respect the visitor's reduced-motion preference.
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    document.documentElement.style.scrollBehavior = "auto";
+  }
 
-  // Mark the current navigation target for keyboard and assistive-technology users.
+  // Indicate which in-page section is currently in view.
   const navLinks = [...document.querySelectorAll(".primary-nav a")];
   const sections = navLinks
     .map(link => document.querySelector(link.getAttribute("href")))
