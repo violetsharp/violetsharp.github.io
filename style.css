@@ -105,3 +105,19 @@ body{background:#eee8dc;color:#29242b}
 .manuscript-chapter .letter-signoff{font-style:italic;color:#67516a}
 .manuscript-backtop{display:inline-block;margin-top:30px;font:10px var(--mono);letter-spacing:.1em;text-transform:uppercase;color:#67516a;text-decoration:none}
 @media(max-width:760px){.manuscript-shell{padding:42px 6% 70px}.manuscript-chapter p{font-size:18px}.manuscript-chapter h3{font-size:26px}.manuscript-part h2{font-size:39px}.manuscript-tools{font-size:9px}}
+
+
+/* Book-like structure and navigation for The Lost Traveller. */
+.chapter-index{margin:34px 0 42px;padding:22px 0 26px;border-top:1px solid rgba(48,42,49,.18);border-bottom:1px solid rgba(48,42,49,.18)}
+.chapter-index-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:28px}
+.chapter-index-grid a{display:grid;grid-template-columns:28px minmax(0,1fr) 14px;gap:10px;align-items:baseline;padding:11px 0;border-bottom:1px solid rgba(48,42,49,.1);color:#302a31;text-decoration:none;font:15px/1.45 var(--sans)}
+.chapter-index-grid a span:first-child{font:10px var(--mono);color:#775b79}
+.chapter-index-grid a span:last-child{color:#775b79;text-align:right}
+.chapter-index-grid a:hover{color:#775b79}
+.manuscript-chapter p{max-width:65ch;text-wrap:pretty;hyphens:auto;overflow-wrap:break-word}
+.chapter-pagination{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:18px;margin:32px 0 12px;padding-top:18px;border-top:1px solid rgba(48,42,49,.16);font:14px/1.5 var(--sans)}
+.chapter-pagination a{display:flex;flex-direction:column;gap:5px;color:#302a31;text-decoration:none}
+.chapter-pagination a span,.chapter-pagination-start{font:10px/1.5 var(--mono);letter-spacing:.08em;color:#775b79}
+.chapter-pagination .chapter-next{text-align:right;align-items:flex-end}
+.chapter-pagination a:hover{color:#775b79}
+@media(max-width:600px){.chapter-index-grid{grid-template-columns:1fr}.chapter-index-grid a{font-size:14px}.chapter-pagination{gap:12px;font-size:12px}.chapter-pagination a span,.chapter-pagination-start{font-size:9px}}
