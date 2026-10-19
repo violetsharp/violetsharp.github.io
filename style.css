@@ -171,3 +171,40 @@ body{background:#eee8dc;color:#29242b}
 /* Fail-safe page canvas colors: keep the archive dark even if a theme variable is unavailable. */
 html { background-color: #0A090D; color-scheme: dark; }
 body { background-color: #0A090D; background: var(--void, #0A090D); color: var(--text, #D8D0BB); }
+
+
+/* Dark archive restoration: keep the site's editorial character without the broad cream panels. */
+body { background: var(--void, #0A090D); color: var(--paper, #D8D0BB); }
+.site-header, .site-footer { background: rgba(10,9,13,.94); color: var(--paper); border-color: var(--line); }
+.wordmark, .footer-wordmark { color: var(--paper); }
+.primary-nav a, .header-index { color: var(--muted); }
+.primary-nav a:hover, .header-index:hover { color: var(--paper); }
+.manifesto, .cinema, .writing, .archive, .traveller-choices,
+.chapter-index-page, .chapter-reader { background: var(--void); color: var(--paper); }
+.manifesto .section-label, .cinema .section-label, .writing .section-label,
+.archive .section-label, .traveller-choices .section-label {
+  color: var(--muted); border-color: var(--line);
+}
+.manifesto-copy p, .manifesto-copy .lead, .section-heading>p, .writing-intro>p,
+.film-caption, .section-footnote, .archive-links, .route-note { color: var(--muted); }
+.manifesto h2 em, .section-heading h2 em, .writing-intro h2 em,
+.archive-heading h2 em, .traveller-choices h2 em { color: var(--fog); }
+.film-frame { background: #111014; border-color: var(--line); }
+.traveller-info { background: linear-gradient(140deg, #211823, #111014 70%); color: var(--paper); }
+.traveller-info>p:not(.eyebrow) { color: var(--muted); }
+.traveller-info h3 em { color: #c1a5bf; }
+.text-link { color: var(--paper); }
+.entity { background: var(--forest); color: var(--paper); }
+.entity .section-label { color: #A6B0A5; border-color: var(--line); }
+.entity-copy p { color: #C1C9BE; }
+.entity-tags span { border-color: var(--line); color: var(--paper); }
+.traveller-choices .route-note { color: var(--muted); }
+.prose-container, .manuscript-shell { background: #111014; color: var(--paper); }
+.prose-container h2, .manuscript-part h2, .manuscript-chapter h3 { color: var(--paper); }
+.prose-container>p:not(.edition-note), .tourist-reading .prose-container>p:not(.edition-note),
+.manuscript-chapter p { color: #d8d0bb; }
+.manuscript-tools { color: var(--muted); }
+.manuscript-part { border-color: var(--line); }
+.manuscript-chapter { border-color: var(--line); }
+.reading-pagination { background: var(--void); color: var(--paper); border-color: var(--line); }
+.reading-pagination a { color: var(--muted); }
