@@ -162,3 +162,15 @@ a:focus-visible{outline-width:3px;outline-offset:4px}
 .chapter-index-grid a span{flex:0 0 24px;font:11px/1.6 var(--mono);color:#775b79}
 .chapter-index-grid a:hover{color:#775b79}
 @media(max-width:600px){.chapter-index-grid{grid-template-columns:1fr}.chapter-index{margin:28px 0 38px}.chapter-index-grid a{font-size:15px;padding:11px 0}}
+
+
+/* Book-like reading structure for The Lost Traveller. */
+.manuscript-chapter{margin-bottom:16px}
+.manuscript-chapter h3{padding-top:4px;max-width:32ch}
+.manuscript-chapter p{max-width:65ch;text-wrap:pretty;hyphens:auto;overflow-wrap:break-word}
+.chapter-pagination{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:20px;margin:30px 0 18px;padding:18px 0 0;border-top:1px solid rgba(48,42,49,.16);font:15px/1.5 var(--sans)}
+.chapter-pagination a{display:flex;flex-direction:column;gap:5px;color:#302a31;text-decoration:none}
+.chapter-pagination a span,.chapter-pagination-start{font:10px/1.6 var(--mono);letter-spacing:.1em;color:#775b79}
+.chapter-pagination .chapter-next{text-align:right;align-items:flex-end}
+.chapter-pagination a:hover{color:#775b79}
+@media(max-width:600px){.chapter-pagination{gap:14px;font-size:13px}.chapter-pagination a span,.chapter-pagination-start{font-size:9px}}
