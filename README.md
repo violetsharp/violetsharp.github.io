@@ -1,19 +1,26 @@
 # violetsharp.github.io
 
-The personal site for Violetsharp: a darker, cinematic creative identity distinct from Loveyydoll.
+A cinematic creative archive for Violetsharp, spanning filmmaking, writing, identity, desire, alienation, and contradictory perspectives.
 
-## First draft
+## Design system
 
-The current landing-page draft is a responsive, static HTML/CSS/JavaScript site built for GitHub Pages. Its direction is deliberately restrained: near-black, oxblood, cold silver, dramatic serif typography, and a film-archive sensibility.
+- **Palette:** void black, bruised violet, industrial coal, cold steel, forest green, fog green, archive paper, and restrained oxblood.
+- **Typography:** Space Grotesk for display headings; Newsreader for literary reading; IBM Plex Mono for archival metadata; Manrope for interface copy.
+- **Visual language:** cinematic framing, analogue grain, stark negative space, archive labels, and distinct atmospheres for the two parts of *The Lost Traveller*.
+- **Accessibility:** semantic HTML, keyboard focus styles, skip links, responsive layouts, and reduced-motion support.
 
-### Structure
+## Pages
 
-- `index.html` — page content and accessible semantic structure
-- `style.css` — visual system, responsive layouts, reduced-motion handling, and focus styles
-- `script.js` — tiny progressive enhancement for the footer year
+- `index.html` — main portfolio landing page.
+- `style.css` — shared design system and responsive layouts.
+- `script.js` — progressive enhancements and footer year.
+- `the-lost-traveller/index.html` — work introduction and route selection.
+- `the-lost-traveller/violet.html` — Violet: absolute pessimism and nihilism.
+- `the-lost-traveller/tourist.html` — The Tourist: optimism and heroes.
+- `The Lost Traveller.pdf` — source manuscript.
 
-### Preview
+## Preview
 
-Open `index.html` locally, or enable GitHub Pages for the branch to preview it before merging. The Google Fonts import requires an internet connection; fallback system fonts are included.
+Open `index.html` locally, or enable GitHub Pages to preview the branch. Google Fonts requires an internet connection; CSS fallback fonts are provided.
 
-This is an initial direction, not a finished portfolio. Project links, original imagery, and final copy should be added once the work exists and the identity is settled.
+The chapter pages currently contain clearly marked editorial placeholders. The manuscript should be transcribed and divided only after the PDF has been reviewed, so the published text and chapter boundaries reflect the original work rather than invented copy.
