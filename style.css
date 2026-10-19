@@ -154,3 +154,11 @@ a:focus-visible{outline-width:3px;outline-offset:4px}
  body,.manuscript-chapter p,.prose-container>p:not(.edition-note){color:#17131a}
  .site-header,.site-footer,.manuscript-chapter,.manuscript-part{border-color:rgba(20,16,22,.5)}
 }
+
+.chapter-index{margin:38px 0 52px;padding:24px 0 28px;border-top:1px solid rgba(48,42,49,.2);border-bottom:1px solid rgba(48,42,49,.2)}
+.chapter-index-title{font:11px/1.7 var(--mono);letter-spacing:.13em;color:#67516a;margin:0 0 18px}
+.chapter-index-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 28px}
+.chapter-index-grid a{display:flex;gap:12px;align-items:baseline;padding:10px 0;border-bottom:1px solid rgba(48,42,49,.1);font:15px/1.55 var(--sans);color:#302a31;text-decoration:none}
+.chapter-index-grid a span{flex:0 0 24px;font:11px/1.6 var(--mono);color:#775b79}
+.chapter-index-grid a:hover{color:#775b79}
+@media(max-width:600px){.chapter-index-grid{grid-template-columns:1fr}.chapter-index{margin:28px 0 38px}.chapter-index-grid a{font-size:15px;padding:11px 0}}
