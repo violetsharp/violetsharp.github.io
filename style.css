@@ -105,3 +105,52 @@ body{background:#eee8dc;color:#29242b}
 .manuscript-chapter .letter-signoff{font-style:italic;color:#67516a}
 .manuscript-backtop{display:inline-block;margin-top:30px;font:10px var(--mono);letter-spacing:.1em;text-transform:uppercase;color:#67516a;text-decoration:none}
 @media(max-width:760px){.manuscript-shell{padding:42px 6% 70px}.manuscript-chapter p{font-size:18px}.manuscript-chapter h3{font-size:26px}.manuscript-part h2{font-size:39px}.manuscript-tools{font-size:9px}}
+
+
+/* Readability pass: larger type, calmer line lengths, clearer contrast. */
+body{font-size:17px;line-height:1.8}
+.primary-nav a,.header-index{font-size:11px;letter-spacing:.08em}
+.hero-meta,.hero-footer,.image-timecode,.image-note,.film-caption,.section-footnote,.writing-note,.archive-bottom,.site-footer{font-size:10px}
+.eyebrow,.section-label,.text-link,.traveller-stamp,.traveller-side,.archive-number,.closing-overline{font-size:10px}
+.manifesto-copy p,.section-heading>p,.writing-intro>p,.entity-copy p,.traveller-info>p:not(.eyebrow){font-size:16px;line-height:1.9}
+.section-footnote{font-size:12px;line-height:1.75;letter-spacing:.02em}
+.film-caption,.writing-note,.archive-bottom,.site-footer{letter-spacing:.07em;line-height:1.7}
+.archive-links strong{font-size:18px}.archive-links small{font-size:13px;line-height:1.65}
+.traveller-deck,.reading-intro{font-size:clamp(22px,2.5vw,29px);line-height:1.65;max-width:650px}
+.route-subtitle{font-size:28px;line-height:1.45}.route-note{font-size:20px;line-height:1.7}
+.prose-container{max-width:760px;padding:clamp(56px,8vw,100px) 30px 110px}
+.prose-container>p:not(.edition-note){font-size:21px;line-height:1.95;max-width:66ch}
+.prose-container h2{font-size:clamp(35px,4vw,44px);line-height:1.2}
+.manuscript-shell{padding:clamp(44px,7vw,88px) 5% 100px}
+.manuscript-inner{max-width:840px}
+.manuscript-tools{font-size:11px;line-height:1.8}
+.manuscript-tools a{display:inline-block;margin:3px 0}
+.manuscript-chapter{padding:clamp(28px,4vw,42px) 0 32px;scroll-margin-top:28px}
+.manuscript-chapter h3{font-size:clamp(29px,3.2vw,36px);line-height:1.25;margin-bottom:24px;max-width:28ch}
+.manuscript-chapter p{font-size:clamp(19px,1.5vw,21px);line-height:2;max-width:68ch;color:#332d34;margin-bottom:1.3em}
+.manuscript-part-label{font-size:11px;letter-spacing:.16em}
+.manuscript-part h2{font-size:clamp(43px,5vw,54px);line-height:1.15;margin:16px 0 28px}
+.manuscript-backtop,.edition-note{font-size:11px;line-height:1.8}
+.reading-pagination{font-size:11px;line-height:1.8}
+.site-header{position:sticky;top:0;backdrop-filter:blur(14px)}
+a:focus-visible{outline-width:3px;outline-offset:4px}
+@media(max-width:760px){
+ body{font-size:16px;line-height:1.8}
+ .primary-nav a{font-size:10px}
+ .hero-meta,.hero-footer{font-size:9px}
+ .manifesto-copy p,.section-heading>p,.writing-intro>p,.entity-copy p,.traveller-info>p:not(.eyebrow){font-size:16px}
+ .section-wrap{padding-top:72px;padding-bottom:72px}
+ .prose-container{padding:58px 23px 75px}
+ .prose-container>p:not(.edition-note){font-size:19px;line-height:1.9}
+ .manuscript-shell{padding:34px 5% 70px}
+ .manuscript-chapter p{font-size:18px;line-height:1.9}
+ .manuscript-chapter h3{font-size:27px}
+ .manuscript-tools{display:block}
+ .manuscript-tools>span{display:block;margin-bottom:12px}
+ .manuscript-part h2{font-size:40px}
+ .reading-pagination{flex-wrap:wrap}
+}
+@media(prefers-contrast:more){
+ body,.manuscript-chapter p,.prose-container>p:not(.edition-note){color:#17131a}
+ .site-header,.site-footer,.manuscript-chapter,.manuscript-part{border-color:rgba(20,16,22,.5)}
+}
