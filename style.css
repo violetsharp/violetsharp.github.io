@@ -619,3 +619,164 @@ body.claire-site{background:#f4eee8;color:#302b30;font-family:var(--sans);font-s
 .claire-project-end em{color:var(--claire-burgundy)}
 @media(max-width:760px){.claire-hero{min-height:auto}.claire-hero-copy{width:100%}.claire-hero h1{font-size:clamp(58px,13vw,90px)}.claire-hero-image{height:350px}.claire-street-sign{right:6%;top:33%}}
 @media(prefers-reduced-motion:reduce){.claire-site *{scroll-behavior:auto;transition:none!important}}
+
+/* Site-wide night mode and vintage London reading palette */
+.theme-toggle{display:inline-flex;align-items:center;justify-content:center;min-height:34px;padding:7px 10px;border:1px solid currentColor;border-radius:2px;background:transparent;color:inherit;font:500 10px/1.2 "DM Mono",monospace;letter-spacing:.07em;text-transform:uppercase;cursor:pointer;white-space:nowrap}
+.theme-toggle:focus-visible{outline:2px solid #d7a15d;outline-offset:3px}
+.theme-toggle:hover{background:rgba(166,88,73,.16)}
+.claire-header .theme-toggle{color:#c9ad9a;border-color:rgba(201,173,154,.35)}
+.site-header .theme-toggle{color:#e8ddcf;border-color:rgba(232,221,207,.3)}
+@media(max-width:720px){.theme-toggle{font-size:9px;padding:6px 7px}.claire-header,.site-header{flex-wrap:wrap}.claire-header nav,.site-header .primary-nav{flex-wrap:wrap}}
+/* Dark is default on the portfolio. */
+body.claire-site:not(.theme-light){--claire-cream:#1b1414;--claire-paper:#211819;--claire-paper-shadow:#382522;--claire-ink:#f0e2d0;--claire-burgundy:#a44b57;--claire-oxblood:#35151d;--claire-brick:#d17c70;--claire-amber:#d7a15d;--claire-muted:#bca99b;--claire-rule:rgba(240,226,208,.18);background:#211819;color:#f0e2d0}
+body.claire-site:not(.theme-light) .claire-header{background:#1b1213;border-color:rgba(240,226,208,.16)}
+body.claire-site:not(.theme-light) .claire-wordmark,body.claire-site:not(.theme-light) .claire-footer>a{color:#f0e2d0}
+body.claire-site:not(.theme-light) .claire-wordmark span,body.claire-site:not(.theme-light) .claire-footer>a span{color:#d7a15d}
+body.claire-site:not(.theme-light) .claire-hero{background:radial-gradient(ellipse at 72% 42%,rgba(176,111,70,.18),transparent 38%),linear-gradient(112deg,#120e10 0%,#2c191b 56%,#111012 100%)}
+body.claire-site:not(.theme-light) .claire-about{background:#2a1b1b}
+body.claire-site:not(.theme-light) .claire-about h2,body.claire-site:not(.theme-light) .claire-work-heading h2,body.claire-site:not(.theme-light) .claire-notebook h2,body.claire-site:not(.theme-light) .claire-project h3{color:#f0e2d0}
+body.claire-site:not(.theme-light) .claire-about-copy p,body.claire-site:not(.theme-light) .claire-work-heading>p,body.claire-site:not(.theme-light) .claire-project>p,body.claire-site:not(.theme-light) .claire-notebook-grid>div>p{color:#c7b5a7}
+body.claire-site:not(.theme-light) .claire-about-copy .claire-lead{color:#f0e2d0}
+body.claire-site:not(.theme-light) .claire-work{background:#211819}
+body.claire-site:not(.theme-light) .claire-project-art{border-color:rgba(240,226,208,.16);box-shadow:0 8px 28px rgba(0,0,0,.22)}
+body.claire-site:not(.theme-light) .claire-project h3{color:#f0e2d0}
+body.claire-site:not(.theme-light) .claire-project>p{color:#c7b5a7}
+body.claire-site:not(.theme-light) .claire-notebook{background:#343027}
+body.claire-site:not(.theme-light) .claire-notebook h2 em{color:#d4bb83}
+body.claire-site:not(.theme-light) .claire-influences span{background:rgba(20,15,16,.3);color:#e0cbbb;border-color:rgba(240,226,208,.2)}
+body.claire-site:not(.theme-light) .claire-closing{background:linear-gradient(125deg,#120e10,#3b1d25 70%,#211416)}
+body.claire-site:not(.theme-light) .claire-footer{background:#100d0e;color:#c7b5a7;border-color:rgba(240,226,208,.12)}
+body.claire-site:not(.theme-light) .claire-project-hero{background:linear-gradient(125deg,#120e10,#401d26 64%,#241719)}
+body.claire-site:not(.theme-light) .claire-project-body{background:#211819}
+body.claire-site:not(.theme-light) .claire-project-body p{color:#c7b5a7}
+body.claire-site:not(.theme-light) .claire-project-quote{background:#30201f;color:#e7d4c0;border-color:#a44b57}
+body.claire-site:not(.theme-light) .claire-project-list,body.claire-site:not(.theme-light) .claire-project-list div{border-color:rgba(240,226,208,.16)}
+body.claire-site:not(.theme-light) .claire-project-list strong{color:#f0e2d0}
+body.claire-site:not(.theme-light) .claire-project-list span{color:#bca99b}
+body.claire-site:not(.theme-light) .claire-project-end{background:#2a1b1b;color:#f0e2d0}
+body.claire-site:not(.theme-light) .claire-section-label{color:#c4a99b;border-color:rgba(240,226,208,.2)}
+body.claire-site:not(.theme-light) .claire-text-link,body.claire-site:not(.theme-light) .claire-project-cta{color:#e8b77f;border-color:rgba(232,183,127,.4)}
+body.claire-site:not(.theme-light) .claire-film-grain{opacity:.055;mix-blend-mode:screen}
+/* The Lost Traveller: retain the manuscript, modernize the reader and remove persona branding. */
+body.traveller-page,body.reading-page{background:#171112;color:#e8ddcf}
+body.traveller-page .site-header,body.reading-page .site-header{background:rgba(23,17,18,.96);border-color:rgba(232,221,207,.16)}
+body.traveller-page .wordmark,body.reading-page .wordmark{font-family:"Instrument Serif",Georgia,serif;font-size:25px;letter-spacing:-.04em;color:#f1e2d0}
+body.traveller-page .wordmark span,body.reading-page .wordmark span{color:#c16a61}
+body.traveller-page .primary-nav a,body.reading-page .primary-nav a,body.traveller-page .header-index,body.reading-page .header-index{color:#c6b2a4}
+body.traveller-page .primary-nav a:hover,body.reading-page .primary-nav a:hover,body.traveller-page .header-index:hover,body.reading-page .header-index:hover{color:#e6ad7d}
+body.traveller-page .grain,body.reading-page .grain{opacity:.045}
+body.traveller-page .traveller-hero,body.traveller-page .chapter-index-hero{background:linear-gradient(135deg,#1b1213,#351a21 65%,#1c1516);color:#f1e2d0}
+body.traveller-page .traveller-hero h1,body.traveller-page .chapter-index-hero h1,body.reading-page .chapter-heading h1{font-family:"Instrument Serif",Georgia,serif;font-weight:400;letter-spacing:-.04em;color:#f1e2d0}
+body.traveller-page .traveller-deck,body.traveller-page .chapter-index-intro,body.traveller-page .edition-note{color:#cbb8a8}
+body.traveller-page .chapter-index,body.traveller-page .section-wrap{background:#201719}
+body.traveller-page .section-label,body.traveller-page .chapter-route-label,body.traveller-page .tourist-route-label,body.traveller-page .closing-route-label{color:#d6a17b}
+body.traveller-page .chapter-card{background:#2b1d1e;border-color:rgba(232,221,207,.15);color:#f1e2d0}
+body.traveller-page .chapter-card:hover{background:#382124;border-color:rgba(193,106,97,.65)}
+body.traveller-page .chapter-card-number,body.traveller-page .chapter-card-arrow{color:#d6a17b}
+body.traveller-page .chapter-card-copy strong{color:#f1e2d0}
+body.traveller-page .chapter-card-copy small,body.traveller-page .chapter-index-note{color:#c1ada0}
+body.reading-page .chapter-topline{color:#bfa99a;border-color:rgba(232,221,207,.16)}
+body.reading-page .chapter-topline a{color:#d6a17b}
+body.reading-page .chapter-heading{border-color:rgba(232,221,207,.16)}
+body.reading-page .chapter-heading .eyebrow,body.reading-page .chapter-reading-hint{color:#c16a61}
+body.reading-page .chapter-prose{max-width:700px;margin-inline:auto;color:#e8ddcf;font-family:"Instrument Serif",Georgia,serif;font-size:clamp(20px,2vw,23px);line-height:1.82;letter-spacing:.002em}
+body.reading-page .chapter-prose p{margin:0 0 1.4em}
+body.reading-page .chapter-pagination{border-color:rgba(232,221,207,.16)}
+body.reading-page .chapter-neighbour{background:#2b1d1e;border-color:rgba(232,221,207,.15);color:#f1e2d0}
+body.reading-page .chapter-neighbour:hover{background:#382124}
+body.reading-page .site-footer,body.traveller-page .site-footer{background:#100d0e;border-color:rgba(232,221,207,.12);color:#bfa99a}
+body.reading-page .footer-wordmark,body.traveller-page .footer-wordmark{color:#f1e2d0}
+body.reading-page .footer-wordmark span,body.traveller-page .footer-wordmark span{color:#c16a61}
+/* Warm paper reading mode. */
+body.traveller-page.theme-light,body.reading-page.theme-light{background:#f1e6d5;color:#30221e}
+body.traveller-page.theme-light .site-header,body.reading-page.theme-light .site-header{background:rgba(241,230,213,.97);border-color:rgba(48,34,30,.18)}
+body.traveller-page.theme-light .wordmark,body.reading-page.theme-light .wordmark{color:#30221e}
+body.traveller-page.theme-light .primary-nav a,body.reading-page.theme-light .primary-nav a,body.traveller-page.theme-light .header-index,body.reading-page.theme-light .header-index{color:#6c5549}
+body.traveller-page.theme-light .traveller-hero,body.traveller-page.theme-light .chapter-index-hero{background:linear-gradient(135deg,#e2d0ba,#cdb3a0 65%,#b88d7c);color:#30221e}
+body.traveller-page.theme-light .traveller-hero h1,body.traveller-page.theme-light .chapter-index-hero h1,body.reading-page.theme-light .chapter-heading h1{color:#30221e}
+body.traveller-page.theme-light .traveller-deck,body.traveller-page.theme-light .chapter-index-intro,body.traveller-page.theme-light .edition-note{color:#59463d}
+body.traveller-page.theme-light .chapter-index,body.traveller-page.theme-light .section-wrap{background:#f1e6d5}
+body.traveller-page.theme-light .chapter-card,body.reading-page.theme-light .chapter-neighbour{background:#e7d7c4;border-color:rgba(48,34,30,.2);color:#30221e}
+body.traveller-page.theme-light .chapter-card-copy strong{color:#30221e}
+body.traveller-page.theme-light .chapter-card-copy small,body.traveller-page.theme-light .chapter-index-note{color:#6c5549}
+body.reading-page.theme-light .chapter-topline,body.reading-page.theme-light .chapter-heading,body.reading-page.theme-light .chapter-pagination{border-color:rgba(48,34,30,.18);color:#6c5549}
+body.reading-page.theme-light .chapter-prose{color:#30221e}
+body.reading-page.theme-light .chapter-topline a{color:#7b3037}
+body.reading-page.theme-light .chapter-neighbour:hover{background:#d8c4ae}
+body.reading-page.theme-light .site-footer,body.traveller-page.theme-light .site-footer{background:#e2d0ba;color:#6c5549}
+body.reading-page.theme-light .footer-wordmark,body.traveller-page.theme-light .footer-wordmark{color:#30221e}
+/* Wild Night chapter reader */
+.wild-reader-page:not(.theme-light){background:#171112;color:#e8ddcf}
+.wild-reader-page .claire-header{background:#171112}
+.wild-reader-hero{position:relative;padding:clamp(60px,10vw,130px) clamp(22px,8vw,120px);background:linear-gradient(130deg,#151011,#381b22 60%,#211516);border-bottom:1px solid rgba(232,221,207,.15)}
+.wild-reader-hero h1{font:400 clamp(56px,10vw,120px)/.91 "Instrument Serif",Georgia,serif;letter-spacing:-.045em;margin:25px 0;color:#f1e2d0}
+.wild-reader-hero h1 em{color:#d17c70}
+.wild-reader-hero>p:not(.claire-kicker){max-width:640px;color:#cbb8a8;font-size:17px;line-height:1.8}
+.wild-reader-stamp{position:absolute;right:9%;top:28%;border:1px solid rgba(241,226,208,.45);padding:12px 16px;color:#f1e2d0;background:#283a31;font:500 12px/1.3 "DM Mono",monospace;transform:rotate(4deg)}
+.wild-reader-stamp small{font-size:8px;letter-spacing:.12em}
+.wild-reader-list{padding:clamp(48px,7vw,90px) clamp(22px,8vw,120px);background:#201719}
+.wild-reader-section-heading{max-width:680px;margin-bottom:35px}
+.wild-reader-section-heading h2{font:400 clamp(36px,6vw,64px)/1 "Instrument Serif",Georgia,serif;color:#f1e2d0}
+.wild-reader-section-heading h2 em{color:#d17c70}
+.wild-reader-section-heading>p:last-child{color:#c1ada0;line-height:1.7}
+.wild-chapter-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.wild-chapter-card{display:flex;align-items:center;gap:18px;min-height:88px;padding:18px 20px;border:1px solid rgba(232,221,207,.16);background:#2a1b1c;color:#f1e2d0;text-decoration:none;transition:background .2s,border-color .2s}
+.wild-chapter-card:hover{background:#392124;border-color:#a44b57}
+.wild-chapter-card.pending{opacity:.55;cursor:default}
+.wild-chapter-number{font:11px "DM Mono",monospace;color:#d6a17b}
+.wild-chapter-copy{display:grid;gap:5px;flex:1}
+.wild-chapter-copy strong{font:400 24px/1.1 "Instrument Serif",Georgia,serif}
+.wild-chapter-copy small{font:10px/1.4 "DM Mono",monospace;letter-spacing:.035em;color:#c1ada0}
+.wild-chapter-arrow{color:#d6a17b}
+.wild-reader-note,.wild-reader-notice{margin-top:28px;padding:18px 20px;border-left:2px solid #a44b57;background:#2b1d1e;color:#cbb8a8;line-height:1.7}
+.wild-reader-topline{display:flex;justify-content:space-between;gap:20px;padding:24px clamp(22px,8vw,120px);border-bottom:1px solid rgba(232,221,207,.16);color:#bfa99a;font:10px "DM Mono",monospace;letter-spacing:.08em}
+.wild-reader-topline a{color:#d6a17b;text-decoration:none}
+.wild-reader-heading{padding:clamp(50px,8vw,100px) 22px 45px;max-width:900px;margin:auto;border-bottom:1px solid rgba(232,221,207,.14)}
+.wild-reader-heading h1{font:400 clamp(56px,9vw,100px)/.94 "Instrument Serif",Georgia,serif;letter-spacing:-.04em;color:#f1e2d0;margin:20px 0}
+.wild-reader-heading h1 em{color:#d17c70}
+.wild-reader-deck{color:#c1ada0;line-height:1.7}
+.wild-reader-prose{max-width:720px;margin:0 auto;padding:45px 24px 75px;color:#e8ddcf;font:400 clamp(20px,2vw,23px)/1.82 "Instrument Serif",Georgia,serif}
+.wild-reader-prose p{margin:0 0 1.45em}
+.wild-reader-prose h2{font:400 30px/1.1 "Instrument Serif",Georgia,serif;color:#d17c70;margin:2.2em 0 .9em}
+.wild-reader-prose .stage-direction{font-size:.86em;color:#c1ada0;font-style:italic}
+.wild-reader-pagination{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;padding:22px clamp(22px,8vw,120px);border-top:1px solid rgba(232,221,207,.16);border-bottom:1px solid rgba(232,221,207,.16)}
+.wild-reader-pagination a{color:#e6ad7d;text-decoration:none}
+.wild-reader-pagination a:hover{text-decoration:underline}
+.wild-reader-page .claire-footer{background:#100d0e}
+.wild-reader-page.theme-light .wild-reader-hero,.wild-reader-page.theme-light .wild-reader-heading{background:#e2d0ba;color:#30221e}
+.wild-reader-page.theme-light .wild-reader-hero h1,.wild-reader-page.theme-light .wild-reader-heading h1,.wild-reader-page.theme-light .wild-reader-section-heading h2{color:#30221e}
+.wild-reader-page.theme-light .wild-reader-hero>p:not(.claire-kicker),.wild-reader-page.theme-light .wild-reader-deck,.wild-reader-page.theme-light .wild-reader-section-heading>p:last-child{color:#59463d}
+.wild-reader-page.theme-light .wild-reader-list{background:#f1e6d5}
+.wild-reader-page.theme-light .wild-reader-section-heading h2 em,.wild-reader-page.theme-light .wild-reader-heading h1 em{color:#7b3037}
+.wild-reader-page.theme-light .wild-chapter-card{background:#e7d7c4;color:#30221e;border-color:rgba(48,34,30,.2)}
+.wild-reader-page.theme-light .wild-chapter-copy strong{color:#30221e}
+.wild-reader-page.theme-light .wild-chapter-copy small,.wild-reader-page.theme-light .wild-reader-note,.wild-reader-page.theme-light .wild-reader-notice{color:#6c5549}
+.wild-reader-page.theme-light .wild-reader-note,.wild-reader-page.theme-light .wild-reader-notice{background:#e7d7c4}
+.wild-reader-page.theme-light .wild-reader-prose{color:#30221e}
+.wild-reader-page.theme-light .wild-reader-prose h2{color:#7b3037}
+.wild-reader-page.theme-light .wild-reader-topline,.wild-reader-page.theme-light .wild-reader-pagination{color:#6c5549;border-color:rgba(48,34,30,.2)}
+.wild-reader-page.theme-light .wild-reader-topline a,.wild-reader-page.theme-light .wild-reader-pagination a{color:#7b3037}
+.wild-reader-page.theme-light .claire-footer{background:#e2d0ba;color:#6c5549}
+@media(max-width:760px){.wild-chapter-grid{grid-template-columns:1fr}.wild-reader-stamp{position:static;display:inline-block;margin-top:22px}.wild-reader-hero{padding-top:54px}.wild-reader-topline{font-size:8px}.wild-reader-prose{padding-inline:22px}}
+@media(prefers-reduced-motion:reduce){.theme-toggle,.wild-chapter-card{transition:none}}
+
+/* Legacy combined Lost Traveller manuscript and character-path pages */
+body.reading-page .reading-hero{background:linear-gradient(135deg,#1b1213,#351a21 65%,#1c1516);color:#f1e2d0}
+body.reading-page .reading-hero h1,body.reading-page .reading-kicker{color:#f1e2d0}
+body.reading-page .reading-intro,body.reading-page .prose-aside,body.reading-page .edition-note{color:#cbb8a8}
+body.reading-page .prose-container{max-width:740px;color:#e8ddcf;font-family:"Instrument Serif",Georgia,serif;font-size:clamp(19px,2vw,22px);line-height:1.82}
+body.reading-page .prose-container p{margin-bottom:1.45em}
+body.reading-page .reading-rule,body.reading-page .reading-pagination{border-color:rgba(232,221,207,.16)}
+body.reading-page .text-link{color:#e6ad7d}
+body.reading-page .manuscript-shell{background:#171112}
+body.reading-page .manuscript-inner{color:#e8ddcf;font-family:"Instrument Serif",Georgia,serif;font-size:clamp(19px,2vw,22px);line-height:1.82}
+body.reading-page .manuscript-chapter,body.reading-page .manuscript-part{border-color:rgba(232,221,207,.16)}
+body.reading-page .manuscript-part-label,body.reading-page .manuscript-tools,body.reading-page .manuscript-backtop{color:#d6a17b}
+body.reading-page .manuscript-tools a,body.reading-page .manuscript-backtop a{color:#e6ad7d}
+body.reading-page.theme-light .reading-hero{background:linear-gradient(135deg,#e2d0ba,#cdb3a0 65%,#b88d7c);color:#30221e}
+body.reading-page.theme-light .reading-hero h1,body.reading-page.theme-light .reading-kicker{color:#30221e}
+body.reading-page.theme-light .reading-intro,body.reading-page.theme-light .prose-aside,body.reading-page.theme-light .edition-note{color:#59463d}
+body.reading-page.theme-light .prose-container,body.reading-page.theme-light .manuscript-inner{color:#30221e}
+body.reading-page.theme-light .manuscript-shell{background:#f1e6d5}
+body.reading-page.theme-light .manuscript-chapter,body.reading-page.theme-light .manuscript-part,body.reading-page.theme-light .reading-rule,body.reading-page.theme-light .reading-pagination{border-color:rgba(48,34,30,.18)}
+body.reading-page.theme-light .manuscript-part-label,body.reading-page.theme-light .manuscript-tools,body.reading-page.theme-light .manuscript-backtop{color:#7b3037}
