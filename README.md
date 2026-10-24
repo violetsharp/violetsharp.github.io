@@ -1,33 +1,35 @@
-# Violet — creative archive
+# Claire — filmmaker & writer
 
-A cinematic and literary archive for **Violet**: filmmaking, writing, identity, desire, alienation, politics, and contradictory perspectives. The public-facing entity is Violet; repository and account names are implementation details and may change.
+A personal creative website for Claire: filmmaking, writing, visual studies, and stories in progress. The site is intended to feel warm, intimate, cinematic, and human — a home for the work rather than a constructed alter ego.
 
-## Design direction
+The GitHub repository remains `violetsharp/violetsharp.github.io` for now; that technical name does not define the public-facing identity.
 
-- **Palette:** warm archive paper and pale stone for reading; bruised violet and muted lilac for disorientation; forest and fog greens for the possibility of hope; restrained oxblood for sharp accents. Darkness is used selectively rather than as the background for every section.
-- **Typography:** Space Grotesk for display headings; Newsreader for literary reading; IBM Plex Mono for archival metadata; Manrope for interface copy.
-- **Visual language:** cinematic framing, soft analogue grain, film-like horizon lines, archive labels, a more open editorial layout, and contrasting visual climates for Violet and The Tourist.
-- **Accessibility:** semantic HTML, keyboard focus styles, skip links, responsive layouts, and reduced-motion support.
+## Creative direction
+
+- **Identity:** Claire, a filmmaker and writer. Gentle, curious, emotionally open, and interested in people and the details they carry.
+- **Tone:** personal and welcoming rather than arrogant, mysterious, or confrontational. Let the work carry complexity without presenting the site owner as a fictional persona.
+- **Palette:** warm ivory, soft rose, faded blue, sage, and deep plum accents; cinematic shadows used for contrast rather than making the whole site severe or monochrome.
+- **Typography:** DM Sans for interface and body copy, Instrument Serif for expressive literary moments, and DM Mono for small production notes.
+- **Visual language:** film stills, quiet landscapes, imperfect frames, soft natural light, close observation, and editorial layouts that leave room to breathe.
+- **Accessibility:** semantic HTML, keyboard focus styles, skip links, responsive layouts, readable contrast, and reduced-motion support.
 
 ## Pages
 
-- `index.html` — Violet's main creative archive.
-- `style.css` — shared palette, typography, reading styles, and responsive layouts.
+- `index.html` — Claire's main creative portfolio and archive.
+- `style.css` — shared styles, responsive layouts, and reading-page styles.
 - `script.js` — navigation enhancement and dynamic footer year.
-- `wild-night-in-the-west-end/index.html` — project page for the in-progress ensemble novel *Wild Night In The West End*.
-- `the-lost-traveller/index.html` — introduction and route selection.
-- `the-lost-traveller/manuscript.html` — web reading edition containing all 13 chapters and the closing Love Letter.
-- `the-lost-traveller/violet.html` — entry point for Violet's reading path (chapters 1–8).
-- `the-lost-traveller/tourist.html` — entry point for The Tourist's reading path (chapters 9–13 and Love Letter).
+- `wild-night-in-the-west-end/index.html` — spoiler-light project page for the in-progress ensemble novel.
+- `the-lost-traveller/index.html` — introduction and route selection for the earlier work.
+- `the-lost-traveller/manuscript.html` — chapter-by-chapter reading edition.
+- `the-lost-traveller/violet.html` — legacy reading-path page, pending a naming/content review.
+- `the-lost-traveller/tourist.html` — The Tourist's reading path.
 
-## Work in progress: Wild Night In The West End
+## Current literary focus: Wild Night In The West End
 
-The project page presents a spoiler-light overview of the novel's current direction and planned development: the theatre ensemble around Leslie, Phoebe, and Ludwig; Dylan and the revolutionary movement; and the gradual convergence of the ensemble. It does not publish the unfinished manuscript.
+The project page outlines the novel's current direction without publishing the unfinished manuscript: the theatre ensemble around Leslie, Phoebe, and Ludwig; Dylan and the revolutionary movement; and the gradual convergence of the characters' stories. The final gathering is intended to preserve distinct perspectives and room for reader interpretation.
 
-## Manuscript editorial note
+## Notes
 
-The web edition is transcribed from the supplied PDF. The chapter order and wording are preserved as closely as possible, with paragraph breaks adapted for reading on screen. The split between Violet and The Tourist is a reading path for the site, not a claim that the source PDF presents two separate books: The Tourist signs the closing letter.
+This is an evolving personal portfolio. Work-in-progress sections should be labelled clearly, and unfinished writing should not be presented as a completed or publicly available manuscript. The earlier *The Lost Traveller* reading edition should remain accessible while its framing and naming are reviewed in the wider site overhaul.
 
-## Preview
-
-Open `index.html` locally, or review the open pull request before merging to the default branch. Google Fonts requires an internet connection; fallback fonts are provided.
+Google Fonts requires an internet connection; fallback fonts are provided.
