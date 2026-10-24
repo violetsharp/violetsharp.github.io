@@ -14,10 +14,15 @@ A cinematic and literary archive for **Violet**: filmmaking, writing, identity, 
 - `index.html` — Violet's main creative archive.
 - `style.css` — shared palette, typography, reading styles, and responsive layouts.
 - `script.js` — navigation enhancement and dynamic footer year.
+- `wild-night-in-the-west-end/index.html` — project page for the in-progress ensemble novel *Wild Night In The West End*.
 - `the-lost-traveller/index.html` — introduction and route selection.
 - `the-lost-traveller/manuscript.html` — web reading edition containing all 13 chapters and the closing Love Letter.
 - `the-lost-traveller/violet.html` — entry point for Violet's reading path (chapters 1–8).
 - `the-lost-traveller/tourist.html` — entry point for The Tourist's reading path (chapters 9–13 and Love Letter).
+
+## Work in progress: Wild Night In The West End
+
+The project page presents a spoiler-light overview of the novel's current direction and planned development: the theatre ensemble around Leslie, Phoebe, and Ludwig; Dylan and the revolutionary movement; and the gradual convergence of the ensemble. It does not publish the unfinished manuscript.
 
 ## Manuscript editorial note
 
