@@ -405,3 +405,31 @@ a { color:inherit; }
 .field-elsewhere{padding:28px;background:#1b1420;border:1px solid rgba(184,154,185,.25);min-height:280px}.elsewhere-symbol{color:#a83b48;font-size:25px;text-align:right}.field-elsewhere h3{margin-top:35px;font-size:clamp(35px,4vw,55px)}.enter-link{display:inline-block;margin-top:16px;color:#b89ab9;font-size:9px;letter-spacing:.1em}
 .unified-closing{min-height:440px;padding:85px 7.5%;background:radial-gradient(ellipse at 80% 50%,rgba(112,80,111,.2),transparent 35%),linear-gradient(110deg,#211724,#0d0b10)}.unified-closing .closing-line{font-size:clamp(45px,7vw,85px)}.closing-action{display:inline-block;margin-top:25px;color:#c4a5c5;font:9px var(--mono);letter-spacing:.1em;text-decoration:none;border-bottom:1px solid rgba(196,165,197,.4);padding-bottom:10px}
 @media(max-width:760px){.unified-hero{min-height:auto;padding:22px 6% 18px}.unified-hero-grid{grid-template-columns:1fr;gap:34px;margin:50px auto 35px}.unified-title-block h1{font-size:clamp(68px,17vw,110px)}.unified-art{min-height:360px}.unified-hero-bottom{line-height:1.8}.field-section{padding:75px 6% 80px}.field-heading{grid-template-columns:1fr;gap:22px;margin-bottom:35px}.field-grid{grid-template-columns:1fr;gap:42px}.field-orbit{grid-column:auto;padding:23px}.field-card-art{height:280px}.field-card-meta{font-size:7px}.unified-header .primary-nav{gap:12px}.unified-header .primary-nav a{font-size:9px}.unified-header .header-index{display:none}.unified-closing{padding:65px 6%;min-height:370px}}
+
+
+/* Wild Night In The West End — theatre lights against Violet's archive palette. */
+.art-west-end{position:relative;overflow:hidden;background:linear-gradient(180deg,#1c1720 0%,#392638 42%,#7b3842 68%,#171319 100%)}
+.art-west-end:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(10,9,13,.58),transparent 55%),radial-gradient(ellipse at 50% 25%,rgba(211,165,151,.22),transparent 38%)}
+.west-end-neon{position:absolute;left:9%;top:22%;font:600 clamp(28px,4vw,54px)/.78 var(--display);letter-spacing:-.09em;color:#f0d8c8;text-shadow:0 0 18px rgba(205,103,117,.45);transform:rotate(-5deg)}
+.west-end-curtain{position:absolute;inset:0 0 0 auto;width:23%;background:linear-gradient(90deg,transparent,rgba(116,39,57,.7)),repeating-linear-gradient(90deg,rgba(157,48,60,.22) 0 8px,rgba(35,19,29,.16) 8px 20px);clip-path:polygon(28% 0,100% 0,100% 100%,0 100%)}
+.west-end-stage{position:absolute;left:0;right:0;bottom:0;height:30%;background:linear-gradient(0deg,#0c0a0e,rgba(10,9,13,.12));clip-path:polygon(0 45%,35% 0,72% 28%,100% 5%,100% 100%,0 100%)}
+.west-end-time{position:absolute;bottom:14px;left:14px;font-size:8px;letter-spacing:.12em;color:rgba(241,234,223,.76)}
+.wild-night-hero{background:radial-gradient(ellipse at 80% 30%,rgba(157,48,60,.25),transparent 35%),linear-gradient(120deg,#241923 0%,#49303e 55%,#303b35 100%)}
+.wild-night-hero:after{border-color:rgba(216,208,187,.2);box-shadow:0 0 0 35px rgba(216,208,187,.025),0 0 0 85px rgba(157,48,60,.035)}
+.wild-night-hero h1{max-width:1100px;font-size:clamp(64px,11vw,140px);line-height:.88;letter-spacing:-.09em}
+.wild-night-hero h1 em{font-family:var(--serif);font-weight:400;color:#e1b9c0}
+.wild-night-deck{max-width:720px;font:clamp(21px,2.5vw,29px)/1.5 var(--serif);color:#f0e8dc}
+.wild-night-meta{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;margin-top:60px;padding-top:16px;border-top:1px solid rgba(216,208,187,.24);font:9px var(--mono);letter-spacing:.12em;color:rgba(241,234,223,.72)}
+.wild-night-content{background:#eee8dc;color:#29242b}
+.wild-night-content .section-label{border-color:rgba(41,36,43,.2);color:#716770}
+.wild-night-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(28px,6vw,80px);padding-top:54px}
+.wild-night-grid h2{font-size:clamp(35px,5vw,62px)}
+.wild-night-grid h2 em{color:#775b79}
+.wild-night-grid p{color:#5e535f;line-height:1.9}
+.wild-night-list{border-top:1px solid rgba(41,36,43,.22);margin-top:26px}
+.wild-night-list div{padding:16px 0;border-bottom:1px solid rgba(41,36,43,.16)}
+.wild-night-list strong{display:block;font:500 17px var(--display);color:#29242b}
+.wild-night-list span{display:block;margin-top:5px;color:#6b626a;font-size:12px}
+.wild-night-note{margin-top:36px;padding:20px 22px;border-left:2px solid #9d303c;background:rgba(119,91,121,.08);color:#5e535f;font:italic 19px/1.6 var(--serif)}
+.wild-night-back{display:inline-block;margin-top:28px;font:9px var(--mono);letter-spacing:.12em;text-transform:uppercase;color:#67516a;text-decoration:none;border-bottom:1px solid rgba(103,81,106,.4);padding-bottom:6px}
+@media(max-width:760px){.wild-night-grid{grid-template-columns:1fr;gap:38px;padding-top:38px}.wild-night-hero h1{font-size:clamp(58px,14vw,92px)}.wild-night-meta{flex-direction:column;gap:9px;margin-top:42px}}
