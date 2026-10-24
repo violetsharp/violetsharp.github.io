@@ -1,6 +1,6 @@
 # Claire — filmmaker & writer
 
-A personal creative website for Claire: filmmaking, writing, visual studies, and stories in progress. The site is intended to feel warm, intimate, cinematic, and human — a home for the work rather than a constructed alter ego.
+A personal creative website for Claire: filmmaking, writing, visual studies, and stories in progress. The site is intended to feel cinematic, intimate, and human, with the atmosphere of a vintage London film archive — a home for the work rather than a constructed alter ego.
 
 The GitHub repository remains `violetsharp/violetsharp.github.io` for now; that technical name does not define the public-facing identity.
 
@@ -8,12 +8,12 @@ The GitHub repository remains `violetsharp/violetsharp.github.io` for now; that 
 
 - **Identity:** Claire, a filmmaker and writer. Gentle, curious, emotionally open, and interested in people and the details they carry.
 - **Tone:** personal and welcoming rather than arrogant, mysterious, or confrontational. Let the work carry complexity without presenting the site owner as a fictional persona.
-- **Palette:** warm ivory, soft rose, faded blue, sage, and deep plum accents; cinematic shadows used for contrast rather than making the whole site severe or monochrome.
-- **Typography:** DM Sans for interface and body copy, Instrument Serif for expressive literary moments, and DM Mono for small production notes.
-- **Visual language:** film stills, quiet landscapes, imperfect frames, soft natural light, close observation, and editorial layouts that leave room to breathe.
+- **Palette:** warm cream, tobacco brown, oxblood/burgundy, faded brick, and amber streetlight; deep night tones balance the paper-like archive surfaces.
+- **Typography:** DM Sans for interface and body copy, Instrument Serif for expressive literary moments, and DM Mono for film/archive labels and production notes.
+- **Visual language:** grainy film stills, rainy London streets, amber streetlights, old theatre signage, ticket-stub details, vintage magazine typography, and editorial layouts that mix archive/catalogue structure with independent-cinema atmosphere. London is a visual language, not a tourist theme; Claire’s own work remains central.
 - **Accessibility:** semantic HTML, keyboard focus styles, skip links, responsive layouts, readable contrast, and reduced-motion support.
 
-## Pages
+## Visual identity\n\nThe visual direction combines a personal film archive, independent cinema, London after dark, and a vintage magazine. Use restrained film grain and tactile print-like details, with a balance between imperfect vintage character and modern readability. Avoid generic beige lifestyle branding, overdone distressed textures, or London tourist clichés. Where real photographs and film stills become available, prioritize Claire’s own work over decorative stock imagery.\n\n## Pages
 
 - `index.html` — Claire's main creative portfolio and archive.
 - `style.css` — shared styles, responsive layouts, and reading-page styles.
