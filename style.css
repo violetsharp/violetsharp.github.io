@@ -759,3 +759,24 @@ body.reading-page.theme-light .footer-wordmark,body.traveller-page.theme-light .
 .wild-reader-page.theme-light .claire-footer{background:#e2d0ba;color:#6c5549}
 @media(max-width:760px){.wild-chapter-grid{grid-template-columns:1fr}.wild-reader-stamp{position:static;display:inline-block;margin-top:22px}.wild-reader-hero{padding-top:54px}.wild-reader-topline{font-size:8px}.wild-reader-prose{padding-inline:22px}}
 @media(prefers-reduced-motion:reduce){.theme-toggle,.wild-chapter-card{transition:none}}
+
+/* Legacy combined Lost Traveller manuscript and character-path pages */
+body.reading-page .reading-hero{background:linear-gradient(135deg,#1b1213,#351a21 65%,#1c1516);color:#f1e2d0}
+body.reading-page .reading-hero h1,body.reading-page .reading-kicker{color:#f1e2d0}
+body.reading-page .reading-intro,body.reading-page .prose-aside,body.reading-page .edition-note{color:#cbb8a8}
+body.reading-page .prose-container{max-width:740px;color:#e8ddcf;font-family:"Instrument Serif",Georgia,serif;font-size:clamp(19px,2vw,22px);line-height:1.82}
+body.reading-page .prose-container p{margin-bottom:1.45em}
+body.reading-page .reading-rule,body.reading-page .reading-pagination{border-color:rgba(232,221,207,.16)}
+body.reading-page .text-link{color:#e6ad7d}
+body.reading-page .manuscript-shell{background:#171112}
+body.reading-page .manuscript-inner{color:#e8ddcf;font-family:"Instrument Serif",Georgia,serif;font-size:clamp(19px,2vw,22px);line-height:1.82}
+body.reading-page .manuscript-chapter,body.reading-page .manuscript-part{border-color:rgba(232,221,207,.16)}
+body.reading-page .manuscript-part-label,body.reading-page .manuscript-tools,body.reading-page .manuscript-backtop{color:#d6a17b}
+body.reading-page .manuscript-tools a,body.reading-page .manuscript-backtop a{color:#e6ad7d}
+body.reading-page.theme-light .reading-hero{background:linear-gradient(135deg,#e2d0ba,#cdb3a0 65%,#b88d7c);color:#30221e}
+body.reading-page.theme-light .reading-hero h1,body.reading-page.theme-light .reading-kicker{color:#30221e}
+body.reading-page.theme-light .reading-intro,body.reading-page.theme-light .prose-aside,body.reading-page.theme-light .edition-note{color:#59463d}
+body.reading-page.theme-light .prose-container,body.reading-page.theme-light .manuscript-inner{color:#30221e}
+body.reading-page.theme-light .manuscript-shell{background:#f1e6d5}
+body.reading-page.theme-light .manuscript-chapter,body.reading-page.theme-light .manuscript-part,body.reading-page.theme-light .reading-rule,body.reading-page.theme-light .reading-pagination{border-color:rgba(48,34,30,.18)}
+body.reading-page.theme-light .manuscript-part-label,body.reading-page.theme-light .manuscript-tools,body.reading-page.theme-light .manuscript-backtop{color:#7b3037}
