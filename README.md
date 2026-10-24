@@ -30,6 +30,6 @@ The project page outlines the novel's current direction without publishing the u
 
 ## Notes
 
-This is an evolving personal portfolio. Work-in-progress sections should be labelled clearly, and unfinished writing should not be presented as a completed or publicly available manuscript. The earlier *The Lost Traveller* reading edition should remain accessible while its framing and naming are reviewed in the wider site overhaul.
+This is an evolving personal portfolio. Work-in-progress sections should be labelled clearly, and unfinished writing should not be presented as a completed or publicly available manuscript. *The Lost Traveller* has a dedicated HTML chapter reader with next/previous navigation and a shared dark/warm-paper theme toggle. Its manuscript text remains unchanged; the site chrome now uses Claire branding.
 
-Google Fonts requires an internet connection; fallback fonts are provided.
+The site defaults to a dark London-night palette and offers a persistent light/warm-paper reading mode. The theme toggle is available on the portfolio and chapter readers.\n\n*Wild Night In The West End* now has a chapter index and dedicated HTML reader pages for Chapters 1–7, plus the available partial source of Chapter 8. Chapters 9–12 are listed as pending because the complete chapter text was not present in the source material available during this update; their prose has not been invented.\n\nGoogle Fonts requires an internet connection; fallback fonts are provided.
